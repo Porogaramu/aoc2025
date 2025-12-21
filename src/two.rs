@@ -46,6 +46,7 @@ fn is_repeated(n: u64) -> bool {
 }
 
 /// Solves part 1
+/// Loops through each range and checks every number in the range.
 fn solve1(v: &[RangeInclusive<u64>]) -> u64 {
     let mut sum = 0;
     for r in v.iter().cloned() {
@@ -59,6 +60,7 @@ fn solve1(v: &[RangeInclusive<u64>]) -> u64 {
 }
 
 /// Solves part 2
+/// Loops through each range and checks every number in the range.
 fn solve2(v: &[RangeInclusive<u64>]) -> u64 {
     let mut sum = 0;
     for r in v.iter().cloned() {
