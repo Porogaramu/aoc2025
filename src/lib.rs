@@ -1,3 +1,4 @@
+mod four;
 mod one;
 mod three;
 mod two;
@@ -5,7 +6,7 @@ mod two;
 use std::{path::Path, process::exit};
 
 /// An array of functions that run on a given day.
-const FNS: &[fn(&Path)] = &[one::run, two::run, three::run];
+const FNS: &[fn(&Path)] = &[one::run, two::run, three::run, four::run];
 
 /// Runs the function for a given day.
 pub fn run(n: u32, f: &Path) {
