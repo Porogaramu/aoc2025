@@ -5,6 +5,7 @@ mod nine;
 mod one;
 mod seven;
 mod six;
+mod ten;
 mod three;
 mod two;
 
@@ -21,6 +22,7 @@ const FNS: &[fn(&Path)] = &[
     seven::run,
     eight::run,
     nine::run,
+    ten::run,
 ];
 
 /// Runs the function for a given day.
